@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Colors */
+    --color-background: #f8fdf8; /* soft mint background */
+    --color-foreground: #1e3a1e; /* deep forest green */
+    --color-card: #ffffff; /* pure white */
+    --color-card-foreground: #1e3a1e; /* deep forest green */
+    --color-popover: #ffffff; /* pure white */
+    --color-popover-foreground: #1e3a1e; /* deep forest green */
+    --color-primary: #22c55e; /* vibrant grass green */
+    --color-primary-foreground: #ffffff; /* white */
+    --color-secondary: #16a34a; /* deeper forest green */
+    --color-secondary-foreground: #ffffff; /* white */
+    --color-muted: #e5f3e5; /* muted green tone */
+    --color-muted-foreground: #4a5d4a; /* muted green-gray */
+    --color-accent: #84cc16; /* fresh lime green */
+    --color-accent-foreground: #1e3a1e; /* deep forest green */
+    --color-destructive: #dc2626; /* clear red */
+    --color-destructive-foreground: #ffffff; /* white */
+    --color-success: #22c55e; /* vibrant grass green */
+    --color-success-foreground: #ffffff; /* white */
+    --color-warning: #f59e0b; /* warm amber */
+    --color-warning-foreground: #1e3a1e; /* deep forest green */
+    --color-error: #dc2626; /* clear red */
+    --color-error-foreground: #ffffff; /* white */
+    --color-border: #e5f3e5; /* muted green tone */
+    --color-input: #ffffff; /* pure white */
+    --color-ring: #22c55e; /* vibrant grass green */
+    
+    /* Radius */
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Organic shadow system */
+  .shadow-organic-sm {
+    box-shadow: 0 1px 3px rgba(30, 58, 30, 0.1);
+  }
+  
+  .shadow-organic-md {
+    box-shadow: 0 4px 6px rgba(30, 58, 30, 0.1), 0 2px 4px rgba(30, 58, 30, 0.06);
+  }
+  
+  .shadow-organic-lg {
+    box-shadow: 0 10px 15px rgba(30, 58, 30, 0.1), 0 4px 6px rgba(30, 58, 30, 0.05);
+  }
+
+  /* Organic micro-interactions */
+  .grow-on-hover {
+    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  .grow-on-hover:hover {
+    transform: scale(1.02);
+  }
+
+  /* Agricultural touch targets */
+  .touch-target {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 8px;
+  }
+
+  /* Weather gradient backgrounds */
+  .weather-sunny {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  }
+  
+  .weather-cloudy {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  }
+  
+  .weather-rainy {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  }
+}
