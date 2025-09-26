@@ -86,8 +86,8 @@ class SMSService {
         logger.info('✅ Airtel SMS provider initialized');
       }
 
-      // Mock provider for development
-      if (process.env.NODE_ENV === 'development' && this.providers.length === 0) {
+      // Mock provider for development (always add if no real providers)
+      if (this.providers.length === 0) {
         this.providers.push({
           name: 'MockSMS',
           service: null,
@@ -96,7 +96,7 @@ class SMSService {
           sendMethod: this.sendMockSMS.bind(this)
         });
         
-        logger.info('✅ Mock SMS provider initialized for development');
+        logger.info('✅ Mock SMS provider initialized (no real providers configured)');
       }
 
       // Sort providers by priority

@@ -15,3 +15,13 @@
 2025-09-26 12:13:48:1348 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
 2025-09-26 12:14:49:1449 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
 2025-09-26 12:14:52:1452 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:34:57:3457 [31merror[39m: [31m❌ Unable to connect to MySQL database: SQLITE_ERROR: no such table: main.users[39m
+2025-09-26 12:38:18:3818 [31merror[39m: [31mCannot set property query of #<IncomingMessage> which has only a getter Cannot set property query of #<IncomingMessage> which has only a getter[39m
+2025-09-26 12:40:44:4044 [31merror[39m: [31mCannot set property query of #<IncomingMessage> which has only a getter Cannot set property query of #<IncomingMessage> which has only a getter[39m
+2025-09-26 12:41:15:4115 [31merror[39m: [31mCannot set property query of #<IncomingMessage> which has only a getter Cannot set property query of #<IncomingMessage> which has only a getter[39m
+2025-09-26 12:42:47:4247 [31merror[39m: [31mLogin error: option expires is invalid[39m
+2025-09-26 12:43:22:4322 [31merror[39m: [31mLogin error: option expires is invalid[39m
+2025-09-26 12:44:12:4412 [31merror[39m: [31mSMS notification failed: No SMS providers available for country: UG[39m
+2025-09-26 12:44:12:4412 [31merror[39m: [31mSMS notification failed: No SMS providers available for country: UG[39m
+2025-09-26 12:44:12:4412 [31merror[39m: [31mSMS notification failed: No SMS providers available for country: UG[39m
+2025-09-26 12:44:12:4412 [31merror[39m: [31mSMS notification failed: No SMS providers available for country: UG[39m

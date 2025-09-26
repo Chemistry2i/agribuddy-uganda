@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const compression = require('compression');
 const rateLimit = require('express-rate-limit');
-const xss = require('xss-clean');
+// const xss = require('xss-clean'); // Temporarily disabled due to compatibility issue
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
@@ -56,7 +56,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cookieParser());
 
 // Data sanitization
-app.use(xss()); // XSS attacks prevention
+// app.use(xss()); // XSS attacks prevention - temporarily disabled
 app.use(hpp()); // HTTP Parameter Pollution prevention
 
 // Compression middleware

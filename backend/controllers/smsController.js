@@ -528,4 +528,17 @@ class SMSController {
   }
 }
 
-module.exports = new SMSController();
+const smsControllerInstance = new SMSController();
+
+module.exports = {
+  sendSMS: smsControllerInstance.sendSMS.bind(smsControllerInstance),
+  sendBulkSMS: smsControllerInstance.sendBulkSMS.bind(smsControllerInstance),
+  sendWeatherAlert: smsControllerInstance.sendWeatherAlert.bind(smsControllerInstance),
+  sendCropReminder: smsControllerInstance.sendCropReminder.bind(smsControllerInstance),
+  sendLivestockReminder: smsControllerInstance.sendLivestockReminder.bind(smsControllerInstance),
+  sendMarketPrices: smsControllerInstance.sendMarketPrices.bind(smsControllerInstance),
+  getTemplates: smsControllerInstance.getTemplates.bind(smsControllerInstance),
+  getProviderStatus: smsControllerInstance.getProviderStatus.bind(smsControllerInstance),
+  testSMS: smsControllerInstance.testSMS.bind(smsControllerInstance),
+  getSMSStats: smsControllerInstance.getSMSStats.bind(smsControllerInstance)
+};

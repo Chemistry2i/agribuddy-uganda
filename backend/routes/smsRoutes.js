@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const smsController = require('../controllers/smsController.simple');
+const smsController = require('../controllers/smsController');
 const auth = require('../middleware/auth');
 
 // @route   POST /api/sms/send
