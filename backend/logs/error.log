@@ -1,0 +1,10 @@
+2025-09-26 11:39:36:3936 [31merror[39m: [31mDatabase setup failed:[39m
+2025-09-26 11:42:14:4214 [31merror[39m: [31mDatabase setup failed: SQLITE_ERROR: no such column: isActive[39m
+2025-09-26 11:43:34:4334 [31merror[39m: [31mDatabase setup failed: SQLITE_ERROR: no such column: userId[39m
+2025-09-26 11:50:12:5012 [31merror[39m: [31mFailed to create email transporter:[39m
+2025-09-26 11:52:02:522 [31merror[39m: [31mFailed to create email transporter:[39m
+2025-09-26 11:53:38:5338 [31merror[39m: [31mFailed to create email transporter:[39m
+2025-09-26 11:55:21:5521 [31merror[39m: [31mFailed to create email transporter: nodemailer.createTransporter is not a function[39m
+2025-09-26 11:55:42:5542 [31merror[39m: [31mFailed to create email transporter: nodemailer.createTransporter is not a function[39m
+2025-09-26 11:56:00:560 [31merror[39m: [31mFailed to create email transporter: nodemailer.createTransporter is not a function[39m
+2025-09-26 11:56:44:5644 [31merror[39m: [31m❌ Unable to connect to MySQL database: Validation error[39m
