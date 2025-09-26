@@ -84,7 +84,7 @@ app.use('/api/livestock', livestockRoutes);
 app.use('/api/weather', weatherRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/email', emailRoutes);
-// app.use('/api/sms', smsRoutes); // Temporarily disabled for debugging
+app.use('/api/sms', smsRoutes);
 
 // Handle undefined routes
 app.use((req, res) => {
