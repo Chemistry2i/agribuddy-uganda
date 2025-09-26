@@ -17,6 +17,7 @@ const livestockRoutes = require('./routes/livestock');
 const weatherRoutes = require('./routes/weather');
 const userRoutes = require('./routes/users');
 const emailRoutes = require('./routes/email');
+const smsRoutes = require('./routes/smsRoutes');
 
 // Import middleware
 const errorHandler = require('./middleware/errorHandler');
@@ -76,13 +77,14 @@ app.get('/health', (req, res) => {
   });
 });
 
-// API routes
+// Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/crops', cropRoutes);
 app.use('/api/livestock', livestockRoutes);
 app.use('/api/weather', weatherRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/email', emailRoutes);
+// app.use('/api/sms', smsRoutes); // Temporarily disabled for debugging
 
 // Handle undefined routes
 app.use((req, res) => {

@@ -8,3 +8,10 @@
 2025-09-26 11:55:42:5542 [31merror[39m: [31mFailed to create email transporter: nodemailer.createTransporter is not a function[39m
 2025-09-26 11:56:00:560 [31merror[39m: [31mFailed to create email transporter: nodemailer.createTransporter is not a function[39m
 2025-09-26 11:56:44:5644 [31merror[39m: [31m❌ Unable to connect to MySQL database: Validation error[39m
+2025-09-26 12:12:18:1218 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:12:45:1245 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:13:13:1313 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:13:46:1346 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:13:48:1348 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:14:49:1449 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
+2025-09-26 12:14:52:1452 [31merror[39m: [31m❌ Error initializing SMS providers: accountSid must start with AC[39m
