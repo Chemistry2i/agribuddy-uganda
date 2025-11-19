@@ -103,4 +103,4 @@ npm run build
 - Powered by React and Vite
 - Styled with Bootstrap CSS
 
-Built by concept crashers thank you 
+Built by Concept Crashers Thank you 
