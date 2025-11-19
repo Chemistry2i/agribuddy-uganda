@@ -7,7 +7,7 @@ A modern React-based project utilizing the latest frontend technologies and tool
 - **React 18** - React version with improved rendering and concurrent features
 - **Vite** - Lightning-fast build tool and development server
 - **Redux Toolkit** - State management with simplified Redux setup
-- **TailwindCSS** - Utility-first CSS framework with extensive customization
+- **BootstrapCSS** - Utility-first CSS framework with extensive customization
 - **React Router v6** - Declarative routing for React applications
 - **Data Visualization** - Integrated D3.js and Recharts for powerful data visualization
 - **Form Management** - React Hook Form for efficient form handling
@@ -101,6 +101,6 @@ npm run build
 ## 🙏 Acknowledgments
 
 - Powered by React and Vite
-- Styled with Tailwind CSS
+- Styled with Bootstrap CSS
 
 Built by concept crashers thank you 
